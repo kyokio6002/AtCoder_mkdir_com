@@ -1,0 +1,21 @@
+#!/bin/sh
+
+file="AtCoderBeginnerContest$1"
+cd ~/
+cd [path]
+
+#echo $file
+
+#引数がない場合
+if [ "$1" = "" ];then 
+	echo 引数がないよばーか
+elif [ -d $file ];then
+	cd $file
+else
+    echo "dirないよ。作ったろか？(y/n)"
+		read ans
+		if [ "$ans" = "y" ];then
+			mkdir $file
+			cd $file
+		fi
+fi

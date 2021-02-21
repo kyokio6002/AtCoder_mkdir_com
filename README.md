@@ -6,6 +6,8 @@
 
 `. abc 179`
 
+エイリアスを使って`abc 179`で作れるようにした
+
 
 ## abc
 なぜファイル名がabcかと言うと、主にAtCoderBeginnerContest(ABC)に出ているためです。

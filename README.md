@@ -25,7 +25,7 @@ cd [path]
 
 #引数がない場合
 if [ "$1" = "" ];then 
-	echo 引数がないよばーか
+	echo 引数がないよ
 #[file]が既に存在してる場合は移動するだけ
 elif [ -d $file ];then
 	cd $file

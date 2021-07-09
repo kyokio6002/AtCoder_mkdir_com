@@ -8,7 +8,7 @@ cd [path]
 
 #引数がない場合
 if [ "$1" = "" ];then 
-	echo 引数がないよばーか
+	echo 引数がないよ
 elif [ -d $file ];then
 	cd $file
 else
